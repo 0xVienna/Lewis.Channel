@@ -2,8 +2,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fff; /* White background */
-  color: #333; /* Default text color */
+  background: #fddb6d; /* Faded dark orange gradient background */
+  background: linear-gradient(to bottom right, #fddb6d, #a9620d);
+  color: #333;
 }
 
 header {
@@ -13,39 +14,47 @@ header {
   text-align: center;
 }
 
-main {
-  padding: 20px;
-}
-
 h1 {
   margin: 0;
 }
 
-section {
-  margin-bottom: 30px;
-}
-
-ul {
+nav ul {
   list-style-type: none;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
-li {
-  padding: 5px 0;
+nav ul li {
+  margin: 0 15px;
 }
 
-a {
-  color: #007bff; /* Blue link color */
+nav ul li a {
+  color: #fff;
   text-decoration: none;
+  font-size: 18px;
 }
 
-a:hover {
-  text-decoration: underline;
+main {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+section {
+  margin-bottom: 50px;
 }
 
 footer {
-  background: linear-gradient(to right, #d32f2f, #9a0007); /* Dark orange gradient */
-  color: #fff; /* White text for the footer */
+  background: linear-gradient(to right, #fddb6d, #fba53c); /* Light orange gradient */
+  color: #fff;
   padding: 10px;
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
